@@ -68,5 +68,5 @@ class BookReviewsController < ApplicationController
       params.require(:book_review).permit(:user_id, :book_id, :review)
     end
     
-    # Book review c
+    # Book review controller
 end
